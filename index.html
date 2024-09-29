@@ -10,33 +10,42 @@
     <div class="fundo">
         <div class="container">
             <div class="tela">
-                
+                <div class="apresentacao">
+                    <p class="tela-dados"></p>
+                </div>
             </div>
             <div class="areas-botoes">
                 <div class="botoes-numeros">
-                    <input type="button" value="1" class="numeros numero1">
-                    <input type="button" value="2" class="numeros numero2">
-                    <input type="button" value="3" class="numeros numero3">
-                    <input type="button" value="4" class="numeros numero4">
-                    <input type="button" value="5" class="numeros numero5">
-                    <input type="button" value="6" class="numeros numero6">
-                    <input type="button" value="7" class="numeros numero7">
-                    <input type="button" value="8" class="numeros numero8">
-                    <input type="button" value="9" class="numeros numero9">
-                    <input type="button" value="0" class="numeros numero0">
+                    <input type="button" value="1" class="numeros btn" id="num1">
+                    <input type="button" value="2" class="numeros btn" id="num2">
+                    <input type="button" value="3" class="numeros btn" id="num3">
+                    <input type="button" value="4" class="numeros btn" id="num4">
+                    <input type="button" value="5" class="numeros btn" id="num5">
+                    <input type="button" value="6" class="numeros btn" id="num6">
+                    <input type="button" value="7" class="numeros btn" id="num7">
+                    <input type="button" value="8" class="numeros btn" id="num8">
+                    <input type="button" value="9" class="numeros btn" id="num9"> 
+                    <input type="button" value="0" class="numeros btn" id="num0">
+                    
                 </div>
                 <div class="botoes-operadores">
-                    <input type="button" value="+" class="soma operadores">
-                    <input type="button" value="-" class="subtracao operadores">
-                    <input type="button" value="x" class="multiplicacao operadores">
-                    <input type="button" value="/" class="divisao soma operadores">
+                    <input type="button" value="del" class=" btn" id="del">
+                    <input type="button" value="+" class="operadores btn" id="+">
+                    <input type="button" value="-" class="operadores btn" id="-">
+                    <input type="button" value="x" class="operadores btn" id="*">
+                    <input type="button" value="/" class="operadores btn" id="/">
+                    <input type="button" value="=" class="btn" id="=">
                 </div>
             </div>
         </div>
+        
+        <audio id="audioLula" controls>
+            <source src="audios/lula o povo quer gozar.mp3" type="audio/mpeg">
+        </audio>
     </div>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
